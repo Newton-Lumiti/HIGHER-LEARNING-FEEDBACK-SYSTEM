@@ -1,0 +1,39 @@
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feedback-question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feedback-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feedback-rating i {
+    color: #12722a;
+    font-size: 2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .feedback-rating i.active {
+    color: #ffc107;
+  }
+  
+  .feedback-submit {
+    margin-top: 1rem;
+  }
+  
+  .feedback-chart {
+    margin-top: 2rem;
+  }
+  
